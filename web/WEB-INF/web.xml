@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>BMIServlet</servlet-name>
+        <servlet-class>wat.edu.pl.Servlets.BMIServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BMIServlet</servlet-name>
+        <url-pattern>/bmi</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HistoryServlet</servlet-name>
+        <servlet-class>wat.edu.pl.Servlets.HistoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HistoryServlet</servlet-name>
+        <url-pattern>/historia</url-pattern>
+    </servlet-mapping>
+</web-app>
